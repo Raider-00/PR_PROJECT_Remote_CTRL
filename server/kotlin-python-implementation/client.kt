@@ -37,7 +37,7 @@ fun command(cmd : String,outputStream: OutputStreamWriter,inputStream: BufferedR
 
 fun main() {
     val serverAddress = "localhost"
-    val serverPort = 12349
+    val serverPort = 12345
 
     try {
         // Create a socket to connect to the server

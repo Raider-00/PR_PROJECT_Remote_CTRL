@@ -77,7 +77,7 @@ def command(cmd):
 
 if __name__ == "__main__":
 
-    host = "localhost"
+    host = "192.168.101.3"
     port = 12349
 
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
